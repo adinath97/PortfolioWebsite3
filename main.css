@@ -19,8 +19,17 @@ span {
     vertical-align: middle;
 }
 
-.3-columns {}
-.3-columns div {width:100%;padding:20px 0;}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Get rid of default button styling, make it look like a link */
 button {
