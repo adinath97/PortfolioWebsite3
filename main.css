@@ -19,6 +19,8 @@ span {
     vertical-align: middle;
 }
 
+#fruits section {width:100%;padding:20px 0;}
+
 /* Get rid of default button styling, make it look like a link */
 button {
     background: none!important;
