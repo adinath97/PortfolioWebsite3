@@ -7,9 +7,7 @@ ul {
     list-style-type: none;
 }
 
-.how-right img {
-    float: left;
-    margin-right: 20px;
+.how-mid iframe {
     vertical-align :middle;
 }
 
